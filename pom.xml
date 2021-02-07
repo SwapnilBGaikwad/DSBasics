@@ -11,6 +11,22 @@
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <scm>
+        <connection>scm:git:https://github.com/SwapnilBGaikwad/DSBasics.git</connection>
+        <developerConnection>scm:git:https://github.com/SwapnilBGaikwad/DSBasics.git</developerConnection>
+        <url>scm:git:https://github.com/SwapnilBGaikwad/DSBasics.git</url>
+    </scm>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>2.5.3</version>
+            </plugin>
+        </plugins>
+    </build>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
